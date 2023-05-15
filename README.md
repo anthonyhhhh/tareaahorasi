@@ -1,1 +1,2 @@
-# tareaahorasi
+# tarea 
+tardé horas, literalmente horas tratando de hacer esto, cuando creia que acomodaba algo, algo fallaba, cuando arreglaba ese fallo, otro más surgía, era un circulo vicioso; aun despues de todo el esfuerzo que le metí, la pagina aun tiene muchos fallos, fallos bastante notables. me gustó, un poco noma', pienso ir arreglando esta pagina en cuanto más aprenda sobre la materia!
