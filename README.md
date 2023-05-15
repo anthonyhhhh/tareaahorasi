@@ -10,3 +10,7 @@ They don't know the user experience.
 note: i don't know english, i translated all this from google translate
 
 note 2: no need to worry, I'll start an English course!
+
+Another thing to add is that when trying to open another linked page, for example an app, it says it doesn't exist, I really don't know how to fix it.
+
+what I did is write the name of each folder in the search engine, it's tedious, but it's the only way to make it work aaa
