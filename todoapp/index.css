@@ -1,0 +1,201 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+body {
+    margin: 0;
+    background-color: #F6F4F2;
+    margin: 0;
+    padding-top: 5rem;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+
+}
+#navbar {
+    background-color: #587E5B;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content funciona para el eje x, y align-items para el eje y */
+    padding: 0rem 1rem;
+    /* la primera es arriba y abajo, la segunda izquierda y derecha (en caso de que solo sean 2) */
+    box-shadow: 0 5px 7px 0 rgb( 0, 0, 0, 0.6)
+    /* tmb puede usarse el border-bottom 1px solid (color) */
+
+}
+
+.bars-icon{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color:#F6F4F2;
+    transition: all 0.3s ease-in-out;
+}
+
+.bars-icon:hover {
+    color: #F6F4F2;
+    background-color: rgba(50, 66, 46, 0.2);
+}
+
+#Logo{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #F6F4F2;
+}
+#links-container {
+    display: none;
+    gap: 1rem;
+}
+
+.links-container:hover {
+    transform: rotate(60deg);
+}
+
+.link{
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.link {
+    color: #F6F4F2;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+#main {
+    height: 100%;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #31422E;
+}
+
+#main-title-todo {
+    color: #587E5B;
+}
+
+#main-description {
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* tmb puedo usar otros text decoration  */
+
+#main-title {
+    margin: 0;
+    font-size: 4rem;
+}
+#main-desc-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+#main-link {
+    width: 100%;
+    height: 100%;
+    color: #F6F4F2;
+    padding: 0.5rem 3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: #587E5B;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#main-link:hover {
+    color: #a3a3a3;
+    background-color: rgba( 49, 66, 46, 1);
+}
+
+@media (min-width: 768px) {
+    .bars-icon {
+        display: none;
+    }
+    #links-container {
+    display: flex;
+}
+
+   #main {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #31422E;
+
+}
+    #main-link {
+    display: flex;
+}
+}
+
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 6rem;
+        margin: 0;
+    
+    
+    }
+
+    #main {
+    display: flex none;
+    flex-direction: column;
+    width: 70%;
+    margin: 1 auto;
+
+}
+    #main-link {
+    display: flex none;
+}
+#main-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#main-desc-container {
+    display: flex;
+    width: 25rem;
+    margin: 1rem;
+}
+#main-title-todo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+}
