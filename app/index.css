@@ -20,10 +20,12 @@ body {
 }
 
 .text{
-    padding: 2.27rem 9rem 0 0;
+    padding: auto 9rem 0 0;
     display: flex;
     flex-direction: row;
     margin: 0;
+    padding: auto;
+    margin-top: auto;
     justify-content: center;
     align-items: center;
     word-break: break-all
