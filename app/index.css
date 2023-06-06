@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        margin: 0;
+        background-color: #F6F4F2;
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .logo {
+        width: 300px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    h1 {
+        margin: 200px;
+        text-align: center;
+    }
+    form {
+        border: 1px solid;
+        width: 400px;
+        margin: 45px auto;
+        text-align: center;
+    }
+    form input[typy=text] {
+        background-color: #ABEBC6;
+        color: black;
+        border-style: none;
+        font-size: 1.5rem;
+    }
+
+    form input[typy=text]::placeholder {
+        color: #ABEBC6;
+    }
