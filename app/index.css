@@ -43,20 +43,15 @@ body {
 
 ul {
     display: flex;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
     margin: -1.5rem;
     list-style-type: none;
     padding: 3rem;
-    background-color: white;
     width: 35%;
     height: 15rem;
     border-radius:  0.4rem;
     overflow: auto;
     word-break: break-all;
-    box-shadow: 0 4px 4px 4px rgb( 73, 105, 76, 0.5)
+    background-color: white;
 }
 
 #titulo {
@@ -77,12 +72,109 @@ ul {
 
 }
 
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 21.3rem 0 0;
+    width: 20rem;
+}
+
+#form [type=text] {
+    width: 9rem;
+    padding: 1rem 0 1rem 0;
+    margin: 8px 0;
+    box-sizing: border-box;
+  
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
 
 .task{
+    margin-top: -0.3rem;
     display: flex;
-    padding: 0.5rem 0 0 0;
+    flex-direction: column;
+    
+}
+
+#name-input {
+size: 1rem;    
+}
+
+input{
+    outline: none;
+}
+
+.correct{
+    border: 2px solid rgb(168, 247, 50)
+}
+.info-text{
+    display: none;
+}
+
+.deleteicon {
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.deleteicon:hover {
+    color: #a3a3a3;
+    background-color: rgba( 49, 66, 46, 1);
+    opacity: 40%;
+}
+
+.editicon {
+    width: 2rem;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.editicon:hover {
+    color: #a3a3a3;
+    background-color: rgba( 49, 66, 46, 1);
+    opacity: 40%;
+}
+
+
+li {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.input-container {
+    gap: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-btn {
+    display: flex;
     flex-direction: row;
+    background-color: white;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-btn:hover {
+    color: #a3a3a3;
+    background-color: rgba( 49, 66, 46, 1);
+    opacity: 90%;
+}
+
+.show{
+    display: block;
 }
