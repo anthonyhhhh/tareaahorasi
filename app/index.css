@@ -4,36 +4,104 @@
 }
 
 body {
-        margin: 0;
-        background-color: #F6F4F2;
-        margin: 0;
+        background-color: #EAFAF1;
         font-family: 'Lato', sans-serif;
     }
 
-    .logo {
+.logo {
         width: 300px;
         position: absolute;
         top: 0px;
         right: 0px;
     }
 
-    h1 {
-        margin: 200px;
+h1 {
+        margin-top: 200px;
         text-align: center;
     }
-    form {
-        border: 1px solid;
+form {
         width: 400px;
         margin: 45px auto;
         text-align: center;
     }
-    form input[typy=text] {
-        background-color: #ABEBC6;
-        color: black;
+form input[type="text"] {
+        background-color: #A9DFBF;
         border-style: none;
-        font-size: 1.5rem;
-    }
+        width: 20rem;
+        font-size: 1.5em;
+        border-radius: 0.4rem;
+        height: 3rem;
+    padding: 0 0.7rem 0 0.7rem;
 
-    form input[typy=text]::placeholder {
-        color: #ABEBC6;
     }
+    
+form input[type="text"]::placeholder {
+    color: black;
+    opacity: 60%;
+    background-color: #A9DFBF;
+    width: 25rem;
+    height: 4rem;
+}
+
+form input::placeholder {
+    opacity: 30%;
+} 
+
+
+form input[type="text"]:focus {
+    outline: none;
+}
+
+form input[type="submit"]{
+    border-radius: 50%;
+    font-size: 2em;
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    background-color: aliceblue;
+    color: #A9DFBF;
+    
+}
+
+form input[type="submit"]:hover{
+    background-color: #A9DFBF;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.list-container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.taskcontainer {
+    background-color: #A9DFBF;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.borrarBtn{
+    width: 15px;
+    height: 15px;
+}
+.borrarBtn:hover{
+cursor: pointer;
+}
+
+#stats {
+    margin-top: 25px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
