@@ -14,3 +14,17 @@ note 2: no need to worry, I'll start an English course!
 Another thing to add is that when trying to open another linked page, for example an app, it says it doesn't exist, I really don't know how to fix it.
 
 what I did is write the name of each folder in the search engine, it's tedious, but it's the only way to make it work aaa
+
+here are the addresses of my page
+
+TodoApp (main page)
+
+https://anthonyhhhh.github.io/tareaahorasi/todoapp/
+
+Tasks (list)
+
+https://anthonyhhhh.github.io/tareaahorasi/app/
+
+my github profile
+
+https://github.com/anthonyhhhh
