@@ -11,18 +11,20 @@ body {
 .logo {
         width: 300px;
         position: absolute;
-        top: 0px;
-        right: 0px;
+        margin-top: -15.3rem;
+        margin-right: auto;
     }
 
 h1 {
         margin-top: 200px;
         text-align: center;
+        padding-top: 2rem;
     }
 form {
         width: 400px;
         margin: 45px auto;
         text-align: center;
+        word-break: break-all;
     }
 form input[type="text"] {
         background-color: #A9DFBF;
@@ -81,9 +83,11 @@ form input[type="submit"]:hover{
     justify-content: space-between;
     margin-bottom: 6px;
     padding: 16px;
+    margin-top: 1rem;
     border-radius: 4px;
     font-size: 1.1em;
     font-weight: 500;
+    word-break: break-all;
 }
 
 .borrarBtn{
@@ -95,13 +99,8 @@ cursor: pointer;
 }
 
 #stats {
+    color: black;
     margin-top: 25px;
     font-size: 1.3em;
     text-align: center;
-}
-
-#Logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }

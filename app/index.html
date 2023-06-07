@@ -23,24 +23,15 @@
   <title>listilla</title>
 </head>
 <body>
-
-<img src="jeje.png" alt="Logo" class="logo">
   <h1>tareita</h1>
 
   <form action="#" id="userInput">
     <input type="text" placeholder="pon tu tareita aqui" autofocus>
-    <input type="submit" value="+" id="añadirBtn">
+    <input type="submit" value="+" id="addBtn">
   </form>
 
   <div id="list" class="list-container">
 
-    <div class="taskcontainer" id="1">
-      <label>
-        <input type="checkbox">
-        hola
-      </label>
-      <img src="delete.png" class="borrarBtn">
-    </div>
 <!-- 
     <div class="taskcontainer" id="1">
       <label>
@@ -52,16 +43,19 @@
 
   </div>
   
-  <div id="stats">
-    tareitas pendientes: 5 tareitas completadas: 3
-  </div>
-
   <!-- <div id="stats">
     tareitas pendientes: 5 tareitas completadas: 3
   </div> -->
 
+  <div id="stats">
+    
+  </div>
 
-<script src="hola.js"></script>
+
+<script src="hola.js">
+  localStorage.setItem("listadetareas",JSON.stringify(lst))
+</script>
+
 
 </body>
 </html>
