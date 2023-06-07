@@ -27,7 +27,7 @@ let addTask = ()=>{
   updateStats()
   localStorage.setItem('listadetareas', list.innerHTML);
 }
-
+ 
 list.addEventListener('click', (event)=>{
 if(event.srcElement.nodeName == 'INPUT'){
     updateStats()
